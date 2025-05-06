@@ -1,0 +1,7 @@
+[submodule "omi"]
+	path = ./omi
+	url = https://github.com/BasedHardware/omi.git
+
+[submodule "gpuaudio-sdk"]
+	path = ./gpuaudio-sdk
+	url = https://github.com/GPUOpenAudio/gpuaudio-sdk.git
