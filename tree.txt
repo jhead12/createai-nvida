@@ -1,0 +1,623 @@
+-rw-r--r-- 1 jhead 197609   206352 Apr 14 20:17 data/AIStudioDoc.pdf
+-rw-r--r-- 1 jhead 197609    14223 Apr 24 12:23 gpuaudio-sdk/batched_copy.png
+-rw-r--r-- 1 jhead 197609      694 Apr 24 12:23 gpuaudio-sdk/CMakeLists.txt
+-rw-r--r-- 1 jhead 197609     1158 Apr 24 12:23 gpuaudio-sdk/CODEOWNERS
+-rw-r--r-- 1 jhead 197609   111164 Apr 24 12:23 gpuaudio-sdk/dualscheduler.png
+-rw-r--r-- 1 jhead 197609    20850 Apr 24 12:23 gpuaudio-sdk/LICENSE
+-rw-r--r-- 1 jhead 197609   216928 Apr 24 12:23 gpuaudio-sdk/parallelism.png
+-rw-r--r-- 1 jhead 197609   117855 Apr 24 12:23 gpuaudio-sdk/performance.png
+-rw-r--r-- 1 jhead 197609    21325 Apr 24 12:23 gpuaudio-sdk/README.md
+-rw-r--r-- 1 jhead 197609  1591513 Apr 14 20:54 image_generation_deepseek_janus_pro/Janus-Pro.ipynb
+-rw-r--r-- 1 jhead 197609      151 Apr 14 20:54 image_generation_deepseek_janus_pro/QA Steps for DeepSeek Janus Demo.md
+-rw-r--r-- 1 jhead 197609      207 Apr 14 20:54 image_generation_deepseek_janus_pro/requirements.txt
+-rw-r--r-- 1 jhead 197609    37986 Apr 14 20:54 images/flow_chart.png
+-rw-r--r-- 1 jhead 197609   825174 Apr 14 20:54 images/monitor1.png
+-rw-r--r-- 1 jhead 197609    50975 Apr 14 20:17 model_artifacts/movie_titles.csv
+-rw-r--r-- 1 jhead 197609 12689136 Apr 14 20:17 model_artifacts/train_data_matrix.npy
+-rw-r--r-- 1 jhead 197609  2079229 Apr 14 20:17 model_artifacts/u.data
+-rw-r--r-- 1 jhead 197609   238026 Apr 14 20:17 model_artifacts/u.item
+-rw-r--r-- 1 jhead 197609    26894 Apr 24 12:19 omi/codemagic.yaml
+-rw-r--r-- 1 jhead 197609   119876 Apr 24 12:19 omi/community-plugins.json
+-rw-r--r-- 1 jhead 197609     5339 Apr 24 12:19 omi/community-plugin-stats.json
+-rw-r--r-- 1 jhead 197609     1084 Apr 24 12:19 omi/LICENSE
+-rw-r--r-- 1 jhead 197609       63 Apr 24 12:20 omi/package.json
+-rw-r--r-- 1 jhead 197609     1247 Apr 24 12:19 omi/Package.swift
+-rw-r--r-- 1 jhead 197609   423019 Apr 24 12:20 omi/package-lock.json
+-rw-r--r-- 1 jhead 197609     4759 Apr 24 12:19 omi/README.md
+-rwxr-xr-x 1 jhead 197609      444 Apr 30 20:58 sonobus/buildcmake.sh*
+-rw-r--r-- 1 jhead 197609    20863 Apr 30 20:58 sonobus/CMakeLists.txt
+-rw-r--r-- 1 jhead 197609    35148 Apr 30 20:58 sonobus/LICENSE
+-rw-r--r-- 1 jhead 197609      494 Apr 30 20:58 sonobus/LICENSE_EXCEPTION
+-rw-r--r-- 1 jhead 197609     5627 Apr 30 20:58 sonobus/README.md
+-rwxr-xr-x 1 jhead 197609      378 Apr 30 20:58 sonobus/setupcmake.sh*
+-rwxr-xr-x 1 jhead 197609      378 Apr 30 20:58 sonobus/setupcmakewin.sh*
+-rwxr-xr-x 1 jhead 197609      329 Apr 30 20:58 sonobus/setupcmakewin32.sh*
+-rwxr-xr-x 1 jhead 197609      368 Apr 30 20:58 sonobus/setupcmakexcode.sh*
+-rw-r--r-- 1 jhead 197609     2779 Apr 14 20:54 super_resolution/README.md
+-rw-r--r-- 1 jhead 197609    13971 Apr 14 20:54 text_generation/Deployment.ipynb
+-rw-r--r-- 1 jhead 197609     2142 Apr 14 20:54 text_generation/README.md
+-rw-r--r-- 1 jhead 197609    13707 Apr 14 20:54 text_generation/RNN_for_text_generation_TF.ipynb
+-rw-r--r-- 1 jhead 197609    26564 Apr 14 20:54 text_generation/RNN_for_text_generation_Torch.ipynb
+-rw-r--r-- 1 jhead 197609  5445609 Apr 14 20:54 text_generation/shakespeare.txt
+
+gpuaudio-sdk/audio_data:
+total 5
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609  0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609 13 Apr 24 12:23 .gitignore
+
+gpuaudio-sdk/fir_processor:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+gpuaudio-sdk/gain_processor:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+gpuaudio-sdk/GainLib:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+gpuaudio-sdk/iir_processor:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+gpuaudio-sdk/installation:
+total 12
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609 4444 Apr 24 12:23 main.md
+
+gpuaudio-sdk/NeuralAmpModeler:
+total 13
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609 5069 Apr 24 12:23 .gitignore
+-rw-r--r-- 1 jhead 197609  528 Apr 24 12:23 CMakeLists.txt
+drwxr-xr-x 1 jhead 197609    0 Apr 24 12:23 nam_plugin/
+drwxr-xr-x 1 jhead 197609    0 Apr 24 12:23 nam_processor/
+drwxr-xr-x 1 jhead 197609    0 Apr 24 12:23 NAMLib/
+
+gpuaudio-sdk/processor_cmake:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+gpuaudio-sdk/simple_processor_launcher:
+total 4
+drwxr-xr-x 1 jhead 197609 0 Apr 24 12:23 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+
+image_generation_deepseek_janus_pro/janus:
+total 8
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 ../
+-rw-r--r-- 1 jhead 197609 1458 Apr 14 20:54 __init__.py
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 janusflow/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 models/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 utils/
+
+omi/app:
+total 63
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609   50 Apr 24 12:19 .env.template
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 .vscode/
+-rw-r--r-- 1 jhead 197609 1535 Apr 24 12:19 analysis_options.yaml
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 android/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 assets/
+-rw-r--r-- 1 jhead 197609  202 Apr 24 12:19 devtools_options.yaml
+-rw-r--r-- 1 jhead 197609  940 Apr 24 12:19 flavorizr.yaml
+-rwxr-xr-x 1 jhead 197609  745 Apr 24 12:19 initialsetup.bash*
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 ios/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 lib/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 macos/
+-rw-r--r-- 1 jhead 197609 4977 Apr 24 12:19 pubspec.yaml
+-rw-r--r-- 1 jhead 197609 1538 Apr 24 12:19 README.md
+-rw-r--r-- 1 jhead 197609  202 Apr 24 12:19 release.sh
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 scripts/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 setup/
+-rwxr-xr-x 1 jhead 197609 4183 Apr 24 12:19 setup.sh*
+-rw-r--r-- 1 jhead 197609  870 Apr 24 12:19 shorebird.yaml
+-rw-r--r-- 1 jhead 197609 4108 Apr 24 12:19 Tasks.md
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 test_driver/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 web/
+
+omi/backend:
+total 54
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609  523 Apr 24 12:19 .env.template
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 .github/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 _temp/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 charts/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 database/
+-rw-r--r-- 1 jhead 197609  504 Apr 24 12:19 Dockerfile
+-rw-r--r-- 1 jhead 197609  710 Apr 24 12:19 Dockerfile.datadog
+-rw-r--r-- 1 jhead 197609 2459 Apr 24 12:19 main.py
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 migration/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 modal/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 models/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 pusher/
+-rw-r--r-- 1 jhead 197609 5414 Apr 24 12:19 README.md
+-rw-r--r-- 1 jhead 197609 4858 Apr 24 12:19 requirements.txt
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 routers/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 scripts/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 templates/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 testing/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 typesense/
+drwxr-xr-x 1 jhead 197609    0 Apr 25 19:00 utils/
+
+omi/docs:
+total 622
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 ./
+drwxr-xr-x 1 jhead 197609      0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609     89 Apr 24 12:19 babel.config.js
+-rw-r--r-- 1 jhead 197609     11 Apr 24 12:19 CNAME
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 docs/
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 docs-new/
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 docs-old/
+-rw-r--r-- 1 jhead 197609   3052 Apr 24 12:19 docusaurus.config.js
+-rw-r--r-- 1 jhead 197609   1098 Apr 24 12:19 package.json
+-rw-r--r-- 1 jhead 197609 602978 Apr 24 12:19 package-lock.json
+-rw-r--r-- 1 jhead 197609    758 Apr 24 12:19 README.md
+-rw-r--r-- 1 jhead 197609   2931 Apr 24 12:19 sidebars.js
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 src/
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:00 static/
+
+omi/omi:
+total 8
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 firmware/
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 hardware/
+
+omi/omiGlass:
+total 476
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609      0 Apr 26 13:28 ../
+-rw-r--r-- 1 jhead 197609    149 Apr 24 12:19 .env.template
+-rw-r--r-- 1 jhead 197609    916 Apr 24 12:19 app.json
+-rw-r--r-- 1 jhead 197609    165 Apr 24 12:19 App.tsx
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 assets/
+-rw-r--r-- 1 jhead 197609    107 Apr 24 12:19 babel.config.js
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 firmware/
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 hardware/
+-rw-r--r-- 1 jhead 197609   7851 Apr 24 12:20 image.png
+-rw-r--r-- 1 jhead 197609   1074 Apr 24 12:19 LICENSE
+-rw-r--r-- 1 jhead 197609   1128 Apr 24 12:20 package.json
+-rw-r--r-- 1 jhead 197609 435624 Apr 24 12:20 package-lock.json
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 prompts/
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 public/
+-rw-r--r-- 1 jhead 197609   4917 Apr 24 12:19 README.md
+drwxr-xr-x 1 jhead 197609      0 Apr 25 19:01 sources/
+-rw-r--r-- 1 jhead 197609     85 Apr 24 12:20 tsconfig.json
+
+omi/plugins:
+total 41
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609  0 Apr 26 13:28 ../
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 composio/
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 example/
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 instructions/
+drwxr-xr-x 1 jhead 197609  0 Apr 25 19:01 logos/
+-rw-r--r-- 1 jhead 197609 98 Apr 24 12:20 README.md
+
+omi/sdks:
+total 12
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 python/
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 react-native/
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 swift/
+
+omi/web:
+total 12
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 ./
+drwxr-xr-x 1 jhead 197609 0 Apr 26 13:28 ../
+drwxr-xr-x 1 jhead 197609 0 May  4 22:25 frontend/
+drwxr-xr-x 1 jhead 197609 0 Apr 25 19:01 personas-open-source/
+
+sonobus/deps:
+total 24
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 ../
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 android/
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 aoo/
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 ff_meters/
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 ios/
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 juce/
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 mac/
+-rw-r--r-- 1 jhead 197609 762 Apr 30 20:58 README.md
+drwxr-xr-x 1 jhead 197609   0 May  4 21:32 windows/
+
+sonobus/doc:
+total 60
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ../
+-rw-r--r-- 1 jhead 197609  5767 Apr 30 20:58 README_MAC.txt
+-rw-r--r-- 1 jhead 197609  5721 Apr 30 20:58 README_WINDOWS.txt
+-rw-r--r-- 1 jhead 197609 38056 Apr 30 20:58 SonoBus User Guide.md
+
+sonobus/images:
+total 4439
+drwxr-xr-x 1 jhead 197609       0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609       0 May  4 21:32 ../
+drwxr-xr-x 1 jhead 197609       0 May  4 21:32 android/
+-rw-r--r-- 1 jhead 197609    2153 Apr 30 20:58 arrow-down-narrow.svg
+-rw-r--r-- 1 jhead 197609    2247 Apr 30 20:58 arrow-up-narrow.svg
+-rw-r--r-- 1 jhead 197609    2846 Apr 30 20:58 bar_click.wav
+-rw-r--r-- 1 jhead 197609    2708 Apr 30 20:58 beat_click.wav
+-rw-r--r-- 1 jhead 197609    2645 Apr 30 20:58 chat.svg
+-rw-r--r-- 1 jhead 197609    3019 Apr 30 20:58 chat_dots.svg
+-rw-r--r-- 1 jhead 197609    1157 Apr 30 20:58 checkmark.svg
+-rw-r--r-- 1 jhead 197609    2060 Apr 30 20:58 chevron_forward.svg
+-rw-r--r-- 1 jhead 197609    4909 Apr 30 20:58 continue.svg
+-rw-r--r-- 1 jhead 197609    2218 Apr 30 20:58 copy_icon.svg
+-rw-r--r-- 1 jhead 197609    3793 Apr 30 20:58 dice_icon_128.png
+-rw-r--r-- 1 jhead 197609   12341 Apr 30 20:58 dice-icon.xcf
+-rw-r--r-- 1 jhead 197609    4166 Apr 30 20:58 dispfull.svg
+-rw-r--r-- 1 jhead 197609    2585 Apr 30 20:58 dispminimal.svg
+-rw-r--r-- 1 jhead 197609   33222 Apr 30 20:58 dmg_background.svg
+-rw-r--r-- 1 jhead 197609    3744 Apr 30 20:58 dots.svg
+-rw-r--r-- 1 jhead 197609     362 Apr 30 20:58 dots_icon.png
+-rw-r--r-- 1 jhead 197609     309 Apr 30 20:58 dots_menu.png
+-rw-r--r-- 1 jhead 197609    3072 Apr 30 20:58 expand_arrow_active.svg
+-rw-r--r-- 1 jhead 197609    3098 Apr 30 20:58 expand_arrow_inactive.svg
+-rw-r--r-- 1 jhead 197609    1920 Apr 30 20:58 eye.svg
+-rw-r--r-- 1 jhead 197609    1414 Apr 30 20:58 eyedropper.svg
+-rw-r--r-- 1 jhead 197609    2986 Apr 30 20:58 eye-off.svg
+-rw-r--r-- 1 jhead 197609    4871 Apr 30 20:58 folder_icon.svg
+-rw-r--r-- 1 jhead 197609    9200 Apr 30 20:58 hear-others.svg
+-rw-r--r-- 1 jhead 197609    6263 Apr 30 20:58 hold.svg
+-rw-r--r-- 1 jhead 197609    9780 Apr 30 20:58 incoming_allowed.svg
+-rw-r--r-- 1 jhead 197609    9888 Apr 30 20:58 incoming_allowed_active.svg
+-rw-r--r-- 1 jhead 197609    9407 Apr 30 20:58 incoming_disallowed.svg
+-rw-r--r-- 1 jhead 197609    6005 Apr 30 20:58 keyboard.svg
+-rw-r--r-- 1 jhead 197609    6288 Apr 30 20:58 keyboard_disabled.svg
+-rw-r--r-- 1 jhead 197609    8962 Apr 30 20:58 keypad-num.svg
+-rw-r--r-- 1 jhead 197609    8796 Apr 30 20:58 keypad-num-disabled.svg
+-rw-r--r-- 1 jhead 197609   81349 Apr 30 20:58 launchicon@2x.png
+-rw-r--r-- 1 jhead 197609    7557 Apr 30 20:58 LaunchScreen.storyboard
+-rw-r--r-- 1 jhead 197609     806 Apr 30 20:58 lgc_bar.wav
+-rw-r--r-- 1 jhead 197609    3128 Apr 30 20:58 link.svg
+-rw-r--r-- 1 jhead 197609    6607 Apr 30 20:58 link_all.svg
+-rw-r--r-- 1 jhead 197609    6397 Apr 30 20:58 link_up.svg
+-rw-r--r-- 1 jhead 197609    3637 Apr 30 20:58 list_icon1.png
+-rw-r--r-- 1 jhead 197609    4901 Apr 30 20:58 loop_icon.svg
+-rw-r--r-- 1 jhead 197609    3067 Apr 30 20:58 loop_off_icon.png
+-rw-r--r-- 1 jhead 197609    3585 Apr 30 20:58 loop_off_icon.svg
+-rw-r--r-- 1 jhead 197609    3290 Apr 30 20:58 mesg-unread.svg
+-rw-r--r-- 1 jhead 197609    3784 Apr 30 20:58 met.svg
+-rw-r--r-- 1 jhead 197609    4186 Apr 30 20:58 mic.svg
+-rw-r--r-- 1 jhead 197609    4490 Apr 30 20:58 mic_disabled.svg
+-rw-r--r-- 1 jhead 197609   13723 Apr 30 20:58 mic_pointing.svg
+-rw-r--r-- 1 jhead 197609    4337 Apr 30 20:58 move_updown.svg
+-rw-r--r-- 1 jhead 197609    8680 Apr 30 20:58 mute-others.svg
+-rw-r--r-- 1 jhead 197609    8054 Apr 30 20:58 network.svg
+-rw-r--r-- 1 jhead 197609    5588 Apr 30 20:58 oneshot.svg
+-rw-r--r-- 1 jhead 197609   10153 Apr 30 20:58 outgoing_allowed.svg
+-rw-r--r-- 1 jhead 197609    4065 Apr 30 20:58 outgoing_allowed_active.svg
+-rw-r--r-- 1 jhead 197609    9997 Apr 30 20:58 outgoing_disallowed.svg
+-rw-r--r-- 1 jhead 197609    2211 Apr 30 20:58 paste_icon.svg
+-rw-r--r-- 1 jhead 197609    4016 Apr 30 20:58 pause_icon.svg
+-rw-r--r-- 1 jhead 197609    1757 Apr 30 20:58 people.png
+-rw-r--r-- 1 jhead 197609    5498 Apr 30 20:58 people.svg
+-rw-r--r-- 1 jhead 197609     965 Apr 30 20:58 person.png
+-rw-r--r-- 1 jhead 197609    3615 Apr 30 20:58 person.svg
+-rw-r--r-- 1 jhead 197609    4821 Apr 30 20:58 play_back_to_back.svg
+-rw-r--r-- 1 jhead 197609    5696 Apr 30 20:58 play_background.svg
+-rw-r--r-- 1 jhead 197609    3768 Apr 30 20:58 play_icon.svg
+-rw-r--r-- 1 jhead 197609    4840 Apr 30 20:58 play_simultaneous.svg
+-rw-r--r-- 1 jhead 197609    4306 Apr 30 20:58 plus_icon.svg
+-rw-r--r-- 1 jhead 197609    3120 Apr 30 20:58 power.svg
+-rw-r--r-- 1 jhead 197609    3133 Apr 30 20:58 power_sel.svg
+-rw-r--r-- 1 jhead 197609    3817 Apr 30 20:58 record.svg
+-rw-r--r-- 1 jhead 197609    3805 Apr 30 20:58 record_active.svg
+-rw-r--r-- 1 jhead 197609    3829 Apr 30 20:58 record_active_alt.svg
+-rw-r--r-- 1 jhead 197609    2514 Apr 30 20:58 rectape.svg
+-rw-r--r-- 1 jhead 197609    4292 Apr 30 20:58 replay_icon.svg
+-rw-r--r-- 1 jhead 197609    3285 Apr 30 20:58 reset_buffer_icon.svg
+-rw-r--r-- 1 jhead 197609    1035 Apr 30 20:58 send.svg
+-rw-r--r-- 1 jhead 197609    6905 Apr 30 20:58 send_group.svg
+-rw-r--r-- 1 jhead 197609    6910 Apr 30 20:58 send_group_small.svg
+-rw-r--r-- 1 jhead 197609    4898 Apr 30 20:58 settings_icon.svg
+-rw-r--r-- 1 jhead 197609    2211 Apr 30 20:58 skipback_icon.svg
+-rw-r--r-- 1 jhead 197609    2449 Apr 30 20:58 skipforward_icon.svg
+-rw-r--r-- 1 jhead 197609    3359 Apr 30 20:58 sonobus_icon.svg
+-rw-r--r-- 1 jhead 197609    4940 Apr 30 20:58 sonobus_icon.svg.2020_07_29_14_39_36.1.svg
+-rw-r--r-- 1 jhead 197609  118185 Apr 30 20:58 sonobus_icon_ios_1024.png
+-rw-r--r-- 1 jhead 197609   23473 Apr 30 20:58 sonobus_icon_ios_256.png
+-rw-r--r-- 1 jhead 197609  151768 Apr 30 20:58 sonobus_icon_mac_1024.png
+-rw-r--r-- 1 jhead 197609   30366 Apr 30 20:58 sonobus_icon_mac_256.png
+-rw-r--r-- 1 jhead 197609   70141 Apr 30 20:58 sonobus_logo@2x.png
+-rw-r--r-- 1 jhead 197609    5099 Apr 30 20:58 sonobus_logo_96.png
+-rw-r--r-- 1 jhead 197609   28439 Apr 30 20:58 sonobus_title.png
+-rw-r--r-- 1 jhead 197609    8403 Apr 30 20:58 sonobus_title.svg
+-rw-r--r-- 1 jhead 197609   16322 Apr 30 20:58 sonobus_title_small.png
+-rw-r--r-- 1 jhead 197609   73190 Apr 30 20:58 SonoBus-Icon.svg
+-rw-r--r-- 1 jhead 197609 2246567 Apr 30 20:58 SonobusLogo.xcf
+-rw-r--r-- 1 jhead 197609    6152 Apr 30 20:58 soundboard.svg
+-rw-r--r-- 1 jhead 197609    3742 Apr 30 20:58 speaker.svg
+-rw-r--r-- 1 jhead 197609    3851 Apr 30 20:58 speaker_disabled.svg
+-rw-r--r-- 1 jhead 197609    2651 Apr 30 20:58 speaker_disabled_grey.svg
+-rw-r--r-- 1 jhead 197609    1802 Apr 30 20:58 stop.svg
+-rw-r--r-- 1 jhead 197609  698253 Apr 30 20:58 tempicon-1024.png
+-rw-r--r-- 1 jhead 197609   81349 Apr 30 20:58 tempicon-256.png
+-rw-r--r-- 1 jhead 197609  234891 Apr 30 20:58 tempicon-512.png
+-rw-r--r-- 1 jhead 197609    6218 Apr 30 20:58 toggle.svg
+-rw-r--r-- 1 jhead 197609    3068 Apr 30 20:58 triangle_disclosure.svg
+-rw-r--r-- 1 jhead 197609    3099 Apr 30 20:58 triangle_disclosure_right.svg
+-rw-r--r-- 1 jhead 197609     632 Apr 30 20:58 urei_main.wav
+-rw-r--r-- 1 jhead 197609    2143 Apr 30 20:58 videocam-outline.svg
+-rw-r--r-- 1 jhead 197609    4297 Apr 30 20:58 x_icon.svg
+
+sonobus/JUCE:
+total 139
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ../
+-rw-r--r-- 1 jhead 197609    22 Apr 30 20:58 .gitattributes
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 .github/
+-rw-r--r-- 1 jhead 197609  1139 Apr 30 20:58 .gitignore
+-rw-r--r-- 1 jhead 197609    77 Apr 30 20:58 .gitlab-ci.yml
+-rw-r--r-- 1 jhead 197609   416 Apr 30 20:58 .gitrepo
+-rw-r--r-- 1 jhead 197609 58800 Apr 30 20:58 BREAKING-CHANGES.txt
+-rw-r--r-- 1 jhead 197609 25501 Apr 30 20:58 ChangeList.txt
+-rw-r--r-- 1 jhead 197609  6007 Apr 30 20:58 CMakeLists.txt
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 docs/
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 examples/
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 extras/
+-rw-r--r-- 1 jhead 197609  1957 Apr 30 20:58 LICENSE.md
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 modules/
+-rw-r--r-- 1 jhead 197609  4618 Apr 30 20:58 README.md
+
+sonobus/linux:
+total 30
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ../
+-rwxr-xr-x 1 jhead 197609   77 Apr 30 20:58 build.sh*
+-rw-r--r-- 1 jhead 197609 1406 Apr 30 20:58 BUILDING.md
+-rwxr-xr-x 1 jhead 197609 1392 Apr 30 20:58 deb_get_prereqs.sh*
+-rwxr-xr-x 1 jhead 197609  882 Apr 30 20:58 fedora_get_prereqs.sh*
+-rwxr-xr-x 1 jhead 197609 1309 Apr 30 20:58 install.sh*
+-rw-r--r-- 1 jhead 197609  289 Apr 30 20:58 sonobus.desktop
+-rwxr-xr-x 1 jhead 197609  819 Apr 30 20:58 uninstall.sh*
+
+sonobus/localization:
+total 544
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ../
+-rw-r--r-- 1 jhead 197609 47609 Apr 30 20:58 localized_de.txt
+-rw-r--r-- 1 jhead 197609 47146 Apr 30 20:58 localized_es.txt
+-rw-r--r-- 1 jhead 197609 49040 Apr 30 20:58 localized_fr.txt
+-rw-r--r-- 1 jhead 197609 47674 Apr 30 20:58 localized_it.txt
+-rw-r--r-- 1 jhead 197609 52698 Apr 30 20:58 localized_ja.txt
+-rw-r--r-- 1 jhead 197609 47681 Apr 30 20:58 localized_ko.txt
+-rw-r--r-- 1 jhead 197609 45021 Apr 30 20:58 localized_nl.txt
+-rw-r--r-- 1 jhead 197609 46741 Apr 30 20:58 localized_pt-br.txt
+-rw-r--r-- 1 jhead 197609 47118 Apr 30 20:58 localized_pt-pt.txt
+-rw-r--r-- 1 jhead 197609 62579 Apr 30 20:58 localized_ru.txt
+-rw-r--r-- 1 jhead 197609 40142 Apr 30 20:58 localized_zh-hans.txt
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 tsv/
+
+sonobus/mobile:
+total 60
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ../
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 Builds/
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 JuceLibraryCode/
+-rw-r--r-- 1 jhead 197609 41158 Apr 30 20:58 SonoBusMobile.jucer
+
+sonobus/release:
+total 87
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 ../
+-rwxr-xr-x 1 jhead 197609    69 Apr 30 20:58 buildmac.sh*
+-rwxr-xr-x 1 jhead 197609   104 Apr 30 20:58 buildwin.sh*
+-rwxr-xr-x 1 jhead 197609  1994 Apr 30 20:58 codesign.sh*
+-rwxr-xr-x 1 jhead 197609  2010 Apr 30 20:58 distmac.sh*
+-rwxr-xr-x 1 jhead 197609  2299 Apr 30 20:58 distwin.sh*
+-rw-r--r-- 1 jhead 197609 35149 Apr 30 20:58 gpl-3.0.txt
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 macpkg/
+-rwxr-xr-x 1 jhead 197609   413 Apr 30 20:58 makedmg.sh*
+-rwxr-xr-x 1 jhead 197609   497 Apr 30 20:58 makepkgdmg.sh*
+-rwxr-xr-x 1 jhead 197609  6455 Apr 30 20:58 notarize-app.sh*
+-rwxr-xr-x 1 jhead 197609    79 Apr 30 20:58 notarizedmg.sh*
+-rw-r--r-- 1 jhead 197609   829 Apr 30 20:58 pushrelease.sh
+-rw-r--r-- 1 jhead 197609   247 Apr 30 20:58 SonoBus.entitlements
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 SonoBusLayout/
+-rw-r--r-- 1 jhead 197609  1203 Apr 30 20:58 SonoBusPkg.plist
+drwxr-xr-x 1 jhead 197609     0 May  4 21:32 SonoBusPkgLayout/
+-rwxr-xr-x 1 jhead 197609   512 Apr 30 20:58 update_package_version.py*
+-rw-r--r-- 1 jhead 197609  7713 Apr 30 20:58 wininstaller.iss
+
+sonobus/scripts:
+total 45
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ../
+-rw-r--r-- 1 jhead 197609  574 Apr 30 20:58 arch.cpp
+-rw-r--r-- 1 jhead 197609 2985 Apr 30 20:58 compressjlc.dsp
+-rw-r--r-- 1 jhead 197609 2779 Apr 30 20:58 compressor.dsp
+-rw-r--r-- 1 jhead 197609 3298 Apr 30 20:58 compressor2.dsp
+-rw-r--r-- 1 jhead 197609 1309 Apr 30 20:58 expander.dsp
+-rw-r--r-- 1 jhead 197609 1920 Apr 30 20:58 expander2.dsp
+-rw-r--r-- 1 jhead 197609  720 Apr 30 20:58 limiter.dsp
+-rwxr-xr-x 1 jhead 197609  218 Apr 30 20:58 mac_prebuild.sh*
+-rwxr-xr-x 1 jhead 197609  778 Apr 30 20:58 makecomp.sh*
+-rwxr-xr-x 1 jhead 197609  144 Apr 30 20:58 makeeq.sh*
+-rwxr-xr-x 1 jhead 197609  118 Apr 30 20:58 makezita.sh*
+-rw-r--r-- 1 jhead 197609 2551 Apr 30 20:58 parametric_eq.dsp
+-rwxr-xr-x 1 jhead 197609  316 Apr 30 20:58 prependheader.sh*
+-rw-r--r-- 1 jhead 197609  247 Apr 30 20:58 SonoBus-mac.entitlements
+-rw-r--r-- 1 jhead 197609  480 Apr 30 20:58 SonoBus-mac-sandbox.entitlements
+-rw-r--r-- 1 jhead 197609  239 Apr 30 20:58 zitaRev.dsp
+
+sonobus/snap:
+total 8
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 ../
+drwxr-xr-x 1 jhead 197609    0 May  4 21:32 gui/
+-rw-r--r-- 1 jhead 197609 3188 Apr 30 20:58 snapcraft.yaml
+
+sonobus/Source:
+total 18463
+drwxr-xr-x 1 jhead 197609        0 May  4 21:32 ./
+drwxr-xr-x 1 jhead 197609        0 May  4 21:32 ../
+drwxr-xr-x 1 jhead 197609        0 May  4 21:32 android/
+-rw-r--r-- 1 jhead 197609    20604 Apr 30 20:58 AutoUpdater.cpp
+-rw-r--r-- 1 jhead 197609     1191 Apr 30 20:58 AutoUpdater.h
+-rw-r--r-- 1 jhead 197609    14592 Apr 30 20:58 BeatToggleGrid.cpp
+-rw-r--r-- 1 jhead 197609     3194 Apr 30 20:58 BeatToggleGrid.h
+-rw-r--r-- 1 jhead 197609    36973 Apr 30 20:58 ChannelGroup.cpp
+-rw-r--r-- 1 jhead 197609     5710 Apr 30 20:58 ChannelGroup.h
+-rw-r--r-- 1 jhead 197609   181011 Apr 30 20:58 ChannelGroupsView.cpp
+-rw-r--r-- 1 jhead 197609    13778 Apr 30 20:58 ChannelGroupsView.h
+-rw-r--r-- 1 jhead 197609    38746 Apr 30 20:58 ChatView.cpp
+-rw-r--r-- 1 jhead 197609     4383 Apr 30 20:58 ChatView.h
+-rw-r--r-- 1 jhead 197609    13249 Apr 30 20:58 CompressorView.h
+-rw-r--r-- 1 jhead 197609    74785 Apr 30 20:58 ConnectView.cpp
+-rw-r--r-- 1 jhead 197609     8504 Apr 30 20:58 ConnectView.h
+-rw-r--r-- 1 jhead 197609      494 Apr 30 20:58 CrossPlatformUtils.h
+-rw-r--r-- 1 jhead 197609      378 Apr 30 20:58 CrossPlatformUtilsAndroid.cpp
+-rw-r--r-- 1 jhead 197609     3326 Apr 30 20:58 CrossPlatformUtilsIOS.mm
+-rw-r--r-- 1 jhead 197609      348 Apr 30 20:58 CrossPlatformUtilsLinux.cpp
+-rw-r--r-- 1 jhead 197609     1222 Apr 30 20:58 CrossPlatformUtilsMac.mm
+-rw-r--r-- 1 jhead 197609      374 Apr 30 20:58 CrossPlatformUtilsWindows.cpp
+-rw-r--r-- 1 jhead 197609      578 Apr 30 20:58 DebugLogC.h
+-rw-r--r-- 1 jhead 197609   757076 Apr 30 20:58 DejaVuSans.ttf
+-rw-r--r-- 1 jhead 197609     4165 Apr 30 20:58 EffectParams.cpp
+-rw-r--r-- 1 jhead 197609     1195 Apr 30 20:58 EffectParams.h
+-rw-r--r-- 1 jhead 197609     8952 Apr 30 20:58 EffectsBaseView.h
+-rw-r--r-- 1 jhead 197609    10174 Apr 30 20:58 ExpanderView.h
+-rw-r--r-- 1 jhead 197609    32806 Apr 30 20:58 faustCompressor.h
+-rw-r--r-- 1 jhead 197609    32364 Apr 30 20:58 faustExpander.h
+-rw-r--r-- 1 jhead 197609    31739 Apr 30 20:58 faustLimiter.h
+-rw-r--r-- 1 jhead 197609    44889 Apr 30 20:58 faustParametricEQ.h
+-rw-r--r-- 1 jhead 197609    10041 Apr 30 20:58 GenericItemChooser.cpp
+-rw-r--r-- 1 jhead 197609     3995 Apr 30 20:58 GenericItemChooser.h
+-rw-r--r-- 1 jhead 197609 15515760 Apr 30 20:58 GoNotoKurrent-Regular.ttf
+-rw-r--r-- 1 jhead 197609     2115 Apr 30 20:58 JitterBufferMeter.cpp
+-rw-r--r-- 1 jhead 197609      622 Apr 30 20:58 JitterBufferMeter.h
+-rw-r--r-- 1 jhead 197609     8935 Apr 30 20:58 LatencyMatchView.cpp
+-rw-r--r-- 1 jhead 197609     1397 Apr 30 20:58 LatencyMatchView.h
+-rw-r--r-- 1 jhead 197609    10768 Apr 30 20:58 LatencyMeasurer.cpp
+-rw-r--r-- 1 jhead 197609     1651 Apr 30 20:58 LatencyMeasurer.h
+-rw-r--r-- 1 jhead 197609    40167 Apr 30 20:58 LevelMeterLookAndFeelMethods.h
+-rw-r--r-- 1 jhead 197609    14397 Apr 30 20:58 LocalLatencyMeasurer.h
+-rw-r--r-- 1 jhead 197609     7597 Apr 30 20:58 Metronome.cpp
+-rw-r--r-- 1 jhead 197609     2883 Apr 30 20:58 Metronome.h
+-rw-r--r-- 1 jhead 197609     9853 Apr 30 20:58 MonitorDelayView.h
+-rw-r--r-- 1 jhead 197609     2893 Apr 30 20:58 mtdm.cc
+-rw-r--r-- 1 jhead 197609     1526 Apr 30 20:58 mtdm.h
+-rw-r--r-- 1 jhead 197609    23710 Apr 30 20:58 MVerb.h
+-rw-r--r-- 1 jhead 197609    66344 Apr 30 20:58 OptionsView.cpp
+-rw-r--r-- 1 jhead 197609     7868 Apr 30 20:58 OptionsView.h
+-rw-r--r-- 1 jhead 197609    26298 Apr 30 20:58 ParametricEqView.h
+-rw-r--r-- 1 jhead 197609   100436 Apr 30 20:58 PeersContainerView.cpp
+-rw-r--r-- 1 jhead 197609    10299 Apr 30 20:58 PeersContainerView.h
+-rw-r--r-- 1 jhead 197609     4815 Apr 30 20:58 PolarityInvertView.h
+-rw-r--r-- 1 jhead 197609     5031 Apr 30 20:58 RandomSentenceGenerator.cpp
+-rw-r--r-- 1 jhead 197609     2563 Apr 30 20:58 RandomSentenceGenerator.h
+-rw-r--r-- 1 jhead 197609     9437 Apr 30 20:58 ReverbSendView.h
+-rw-r--r-- 1 jhead 197609    13269 Apr 30 20:58 ReverbView.h
+-rw-r--r-- 1 jhead 197609      221 Apr 30 20:58 RunCumulantor.cpp
+-rw-r--r-- 1 jhead 197609     6250 Apr 30 20:58 RunCumulantor.h
+-rw-r--r-- 1 jhead 197609     7093 Apr 30 20:58 RunningCumulant.c
+-rw-r--r-- 1 jhead 197609     1533 Apr 30 20:58 RunningCumulant.h
+-rw-r--r-- 1 jhead 197609    27608 Apr 30 20:58 SampleEditView.cpp
+-rw-r--r-- 1 jhead 197609    10867 Apr 30 20:58 SampleEditView.h
+-rw-r--r-- 1 jhead 197609   246160 Apr 30 20:58 SonobusPluginEditor.cpp
+-rw-r--r-- 1 jhead 197609    25429 Apr 30 20:58 SonobusPluginEditor.h
+-rw-r--r-- 1 jhead 197609   364054 Apr 30 20:58 SonobusPluginProcessor.cpp
+-rw-r--r-- 1 jhead 197609    49409 Apr 30 20:58 SonobusPluginProcessor.h
+-rw-r--r-- 1 jhead 197609      947 Apr 30 20:58 SonobusTypes.h
+-rw-r--r-- 1 jhead 197609     2256 Apr 30 20:58 SonoCallOutBox.cpp
+-rw-r--r-- 1 jhead 197609     2821 Apr 30 20:58 SonoCallOutBox.h
+-rw-r--r-- 1 jhead 197609     7169 Apr 30 20:58 SonoChoiceButton.cpp
+-rw-r--r-- 1 jhead 197609     2481 Apr 30 20:58 SonoChoiceButton.h
+-rw-r--r-- 1 jhead 197609     2060 Apr 30 20:58 SonoDrawableButton.cpp
+-rw-r--r-- 1 jhead 197609     1112 Apr 30 20:58 SonoDrawableButton.h
+-rw-r--r-- 1 jhead 197609    71859 Apr 30 20:58 SonoLookAndFeel.cpp
+-rw-r--r-- 1 jhead 197609     7093 Apr 30 20:58 SonoLookAndFeel.h
+-rw-r--r-- 1 jhead 197609     1241 Apr 30 20:58 SonoMultiStateDrawableButton.cpp
+-rw-r--r-- 1 jhead 197609      689 Apr 30 20:58 SonoMultiStateDrawableButton.h
+-rw-r--r-- 1 jhead 197609     3643 Apr 30 20:58 SonoPlaybackProgressButton.cpp
+-rw-r--r-- 1 jhead 197609     4064 Apr 30 20:58 SonoPlaybackProgressButton.h
+-rw-r--r-- 1 jhead 197609    32397 Apr 30 20:58 SonoStandaloneFilterApp.cpp
+-rw-r--r-- 1 jhead 197609    49699 Apr 30 20:58 SonoStandaloneFilterWindow.h
+-rw-r--r-- 1 jhead 197609    21905 Apr 30 20:58 SonoTextButton.cpp
+-rw-r--r-- 1 jhead 197609     2036 Apr 30 20:58 SonoTextButton.h
+-rw-r--r-- 1 jhead 197609     1184 Apr 30 20:58 SonoUtility.h
+-rw-r--r-- 1 jhead 197609     6729 Apr 30 20:58 Soundboard.cpp
+-rw-r--r-- 1 jhead 197609     9159 Apr 30 20:58 Soundboard.h
+-rw-r--r-- 1 jhead 197609     1931 Apr 30 20:58 SoundboardButtonColors.h
+-rw-r--r-- 1 jhead 197609    13950 Apr 30 20:58 SoundboardChannelProcessor.cpp
+-rw-r--r-- 1 jhead 197609     7771 Apr 30 20:58 SoundboardChannelProcessor.h
+-rw-r--r-- 1 jhead 197609     3834 Apr 30 20:58 SoundboardEditView.cpp
+-rw-r--r-- 1 jhead 197609     3131 Apr 30 20:58 SoundboardEditView.h
+-rw-r--r-- 1 jhead 197609    10435 Apr 30 20:58 SoundboardProcessor.cpp
+-rw-r--r-- 1 jhead 197609     8663 Apr 30 20:58 SoundboardProcessor.h
+-rw-r--r-- 1 jhead 197609    45682 Apr 30 20:58 SoundboardView.cpp
+-rw-r--r-- 1 jhead 197609     9644 Apr 30 20:58 SoundboardView.h
+-rw-r--r-- 1 jhead 197609     1808 Apr 30 20:58 SoundSampleButtonColourPicker.cpp
+-rw-r--r-- 1 jhead 197609     1903 Apr 30 20:58 SoundSampleButtonColourPicker.h
+-rw-r--r-- 1 jhead 197609    12072 Apr 30 20:58 SuggestNewGroupView.cpp
+-rw-r--r-- 1 jhead 197609     1904 Apr 30 20:58 SuggestNewGroupView.h
+-rw-r--r-- 1 jhead 197609    21470 Apr 30 20:58 VDONinjaView.h
+-rw-r--r-- 1 jhead 197609     4186 Apr 30 20:58 VersionInfo.cpp
+-rw-r--r-- 1 jhead 197609      830 Apr 30 20:58 VersionInfo.h
+-rw-r--r-- 1 jhead 197609    23035 Apr 30 20:58 WaveformTransportComponent.h
+-rw-r--r-- 1 jhead 197609   125047 Apr 30 20:58 wordmaker.g
+-rw-r--r-- 1 jhead 197609    77365 Apr 30 20:58 wordmaker_adverbs.g
+-rw-r--r-- 1 jhead 197609    60140 Apr 30 20:58 zitaRev.h
+
+super_resolution/notebooks:
+total 744
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 ./
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 ../
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 .ipynb_checkpoints/
+-rw-r--r-- 1 jhead 197609 758647 Apr 14 20:54 FSRCNN_DIV2K_AISTUDIO.ipynb
+
+text_generation/code:
+total 300
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 ./
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 ../
+-rw-r--r-- 1 jhead 197609    169 Apr 14 20:54 .eslintignore
+-rw-r--r-- 1 jhead 197609   2286 Apr 14 20:54 .eslintrc.cjs
+-rw-r--r-- 1 jhead 197609    248 Apr 14 20:54 .gitignore
+-rw-r--r-- 1 jhead 197609    157 Apr 14 20:54 .prettier.json
+-rw-r--r-- 1 jhead 197609     34 Apr 14 20:54 .prettierignore
+-rw-r--r-- 1 jhead 197609    449 Apr 14 20:54 build.sh
+-rw-r--r-- 1 jhead 197609    358 Apr 14 20:54 index.html
+-rw-r--r-- 1 jhead 197609   1548 Apr 14 20:54 package.json
+-rw-r--r-- 1 jhead 197609 272145 Apr 14 20:54 package-lock.json
+-rw-r--r-- 1 jhead 197609     80 Apr 14 20:54 postcss.config.js
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 public/
+-rw-r--r-- 1 jhead 197609    249 Apr 14 20:54 README.md
+drwxr-xr-x 1 jhead 197609      0 Apr 25 18:54 src/
+-rw-r--r-- 1 jhead 197609    181 Apr 14 20:54 tailwind.config.js
+-rw-r--r-- 1 jhead 197609    711 Apr 14 20:54 tsconfig.json
+-rw-r--r-- 1 jhead 197609    315 Apr 14 20:54 tsconfig.node.json
+-rw-r--r-- 1 jhead 197609    267 Apr 14 20:54 vite.config.ts
+
+text_generation/demo:
+total 17
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 ./
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 ../
+drwxr-xr-x 1 jhead 197609    0 Apr 25 18:54 assets/
+-rw-r--r-- 1 jhead 197609 4066 Apr 14 20:54 icon.ico
+-rw-r--r-- 1 jhead 197609  471 Apr 14 20:54 index.html
+-rw-r--r-- 1 jhead 197609 1497 Apr 14 20:54 vite.svg
+
+text_generation/models:
+total 61888
+drwxr-xr-x 1 jhead 197609        0 Apr 25 18:54 ./
+drwxr-xr-x 1 jhead 197609        0 Apr 25 18:54 ../
+-rw-r--r-- 1 jhead 197609     1263 Apr 14 20:54 decoder.pt
+-rw-r--r-- 1 jhead 197609 21885707 Apr 14 20:54 dict_torch_rnn_model.pt
+-rw-r--r-- 1 jhead 197609     1263 Apr 14 20:54 encoder.pt
+-rw-r--r-- 1 jhead 197609 41468312 Apr 14 20:54 tf_rnn_model.h5
